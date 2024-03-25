@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff1552c8.css",
+    "main.js": "/static/js/main.c04c743f.js",
+    "static/media/remixicon.svg?t=1684338274817": "/static/media/remixicon.ce0e40c97bfc62e3edab.svg",
+    "static/media/boxicons.svg": "/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/concert-image.png": "/static/media/concert-image.961979915258707ed577.png",
+    "static/media/remixicon.eot?t=1684338274817": "/static/media/remixicon.4504b1fe216fbf391c33.eot",
+    "static/media/remixicon.ttf?t=1684338274817": "/static/media/remixicon.bc494a3a1aebeea65cee.ttf",
+    "static/media/live-chats.webp": "/static/media/live-chats.d0989aa8193ec40202bb.webp",
+    "static/media/boxicons.eot": "/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/crowd-at-concert.webp": "/static/media/crowd-at-concert.60fa3b878090315374cb.webp",
+    "static/media/meet.webp": "/static/media/meet.713fbebf22a56b8294d9.webp",
+    "static/media/remixicon.woff?t=1684338274817": "/static/media/remixicon.d7630016bbb194055f32.woff",
+    "static/media/recommand.webp": "/static/media/recommand.0b43e9f367210b3b26a9.webp",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/remixicon.woff2?t=1684338274817": "/static/media/remixicon.082b68b860510f7036f0.woff2",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/boxicons.woff2": "/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/index.html",
+    "main.ff1552c8.css.map": "/static/css/main.ff1552c8.css.map",
+    "main.c04c743f.js.map": "/static/js/main.c04c743f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff1552c8.css",
+    "static/js/main.c04c743f.js"
+  ]
+}
