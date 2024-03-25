@@ -1,31 +1,28 @@
 import React, { } from 'react';
-import './App.css';
-   
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
- 
 import Login from './components/Login';
-import Header from './components/Header';
+import Landing from './components/Landing';
 import Profile from './components/Profile';
 import useToken from './components/useToken';
 import Register from './components/Register';
+import NavBar from './components/NavBar';
 
 function App() {
      
     const { token, removeToken, setToken } = useToken();
      
     return (
-        <div className="vh-100 gradient-custom">
-	{/*<div className="container">*/}
+	<div className="vh-100 gradient-custom">
                <BrowserRouter>
-                    <Header token={removeToken}/> 
+                    <NavBar token={removeToken}/> 
                     <Routes>
                         <Route exact path="/profile" element={<Profile token={token} setToken={setToken}/>}></Route>
                         <Route exact path="/register" element={<Register setToken={setToken} />}></Route>
                         <Route exact path="/login" element={<Login setToken={setToken} />}></Route>
+                        <Route exact path="/" element={<Landing setToken={setToken} />}></Route>
                     </Routes>
                 </BrowserRouter>
-	{/*</div>*/}
-        </div>
+	</div>
     );
 }
 

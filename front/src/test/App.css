@@ -1,0 +1,32 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  /* Add more styles */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a.active {
+  border-bottom: 2px solid #fff;
+}
+
+/* Style your features and about sections accordingly */
+.feature img {
+  width: 100%;
+  height: auto;
+  /* Add more styles */
+}
+
+/* Add more styles for other sections */
+

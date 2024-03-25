@@ -6,12 +6,12 @@ function Profile(props) {
  
     const [profileData, setProfileData] = useState(null)
      
-    const email = localStorage.getItem('email');
+    //const email = localStorage.getItem('email');
      
     const getUsers = () => { 
         axios({
           method: "GET",
-          url:`http://127.0.0.1:5000/profile/${email}`, 
+          url:`http://127.0.0.1:5000/profile`, 
           headers: {
             Authorization: 'Bearer ' + props.token
           }

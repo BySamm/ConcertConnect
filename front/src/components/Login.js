@@ -54,29 +54,26 @@ function Login(props) {
           ...prevNote, [name]: value})
       )}
  
-    /*let imgs = [
-      'https://as1.ftcdn.net/v2/jpg/03/39/70/90/1000_F_339709048_ZITR4wrVsOXCKdjHncdtabSNWpIhiaR7.jpg',
-    ];*/
      
     return (
-    <div>
-        <div className="container h-50">
-          <div className="container-fluid h-custom">
-            <div className="row d-flex justify-content-center align-items-center h-50">
-              <div className="wrapper col-md-6 col-lg-6 col-xl-4">
+        <div>
+	<div className="container h-50">
+	<div className="container-fluid justify-content-center align-items-center h-custom">
+	<div className="row d-flex justify-content-center align-items-center h-50">
+	<div className="wrapper col-md-6 col-lg-6 col-xl-5">
                 <form>
                   <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                     <p className="lead fw-normal mb-0 me-3">Sign In </p>
                   </div>
   
                   <div className="form-group mb-4">
-                    <input type="email" value={loginForm.email} onChange={handleChange} /*text={loginForm.email}*/ name="email" id="email" required/>
+                    <input type="email" value={loginForm.email} onChange={handleChange} name="email" id="email" required/>
                     <label htmlFor="email">Email address</label>
                   </div>
   
               
                   <div className="form-group mb-3">
-                    <input type="password" value={loginForm.password} onChange={handleChange} /*text={loginForm.password}*/ name="password" id="password" required/>
+                    <input type="password" value={loginForm.password} onChange={handleChange} name="password" id="password" required/>
                     <label htmlFor="password">Password</label>
 	<FaEyeSlash className="icon"/>
                   </div>
@@ -99,9 +96,10 @@ function Login(props) {
                 </form>
               </div>
             </div>
-          </div>
-        </div>
-    </div>
+            </div>
+	</div>
+	</div>
+            
   );
    
 }
